@@ -1,0 +1,5 @@
+names=["shahna","nourin","nihala","sana","amna"]
+a_count=0
+for name in names:
+    a_count=name.lower().count('a')
+    print(" the letter 'a apperas",a_count,"time in the list")
