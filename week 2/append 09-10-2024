@@ -1,0 +1,6 @@
+list = []
+print("list",list)
+list.append(23)
+list.append(20)
+print("append list is:",list)
+         
