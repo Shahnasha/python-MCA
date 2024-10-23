@@ -1,0 +1,9 @@
+line_of_text="hello world and hello world sample program"
+words=line_of_text.lower().split()
+word_count={}
+for word in words:
+    if word in word_count:
+        word_count[word]+=1
+    else:
+        word_count[word]=1
+        print(word_count)
