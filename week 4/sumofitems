@@ -1,0 +1,5 @@
+mylist=list(map(int,input("enter number separated by spaces:").split()))
+total=0
+for item in my_list:
+    total=item
+    print("sum of all items in the list:",total)
